@@ -9,7 +9,7 @@
     <title>Kirby Marquez | Official Website</title>
     <script src="./app.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/app.css">
 
   </head>
 
