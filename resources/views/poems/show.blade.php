@@ -12,10 +12,9 @@
     <div class="poem-container">
     <div class="poem-content-container">
         <a href="/" class="back-button"></a>
-        <div class="poem-title">{{ $poem->title ?? '' }}</div>
-        <div class="poem-body">{{ $poem->body ?? '' }}</div>
+        <div class="poem-title">{{ $poem->title }}</div>
+        <div class="poem-body">{{ $poem->body }}</div>
       </div>
     </div>
   </body>
 </html>
-

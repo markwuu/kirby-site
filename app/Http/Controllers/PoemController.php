@@ -7,8 +7,7 @@ use App\Poem;
 
 class PoemController extends Controller
 {
-    public function show($id)
-    {
-        return view('poem', ['poem' => Poem::findOrFail($id)]);
+    public function show(Poem $poem){
+        return view('poems.show', ['poem' => $poem]);
     }
 }
